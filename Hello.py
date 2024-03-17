@@ -3,6 +3,8 @@ from langchain.llms import OpenAI
 
 st.title('🦜🔗 Quickstart App')
 
+st. info('Reference : https://blog.streamlit.io/langchain-tutorial-1-build-an-llm-powered-app-in-18-lines-of-code/')
+
 openai_api_key = st.sidebar.text_input('OpenAI API Key')
 
 def generate_response(input_text):
